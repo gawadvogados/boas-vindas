@@ -130,6 +130,8 @@ p {
 .chat-texto {
     width: 400px;
     border: 2px solid  #64a2dd;
+    text-align: center;
+    min-height: 180px;
     padding: 20px;
     border-radius: 20px;
     
@@ -155,6 +157,8 @@ p {
 .email-texto {
     width: 400px;
     border: 2px solid #64a2dd;
+    text-align: center;
+    min-height: 180px;
     padding: 20px;
     border-radius: 20px;
     
@@ -170,6 +174,8 @@ p {
 .chamada-texto {
     width: 400px;
     border: 2px solid  #64a2dd;
+    text-align: center;
+    min-height: 180px;
     padding: 20px;
     border-radius: 20px;
 }
@@ -189,6 +195,8 @@ p {
 .suporte-texto {
     width: 400px;
     border: 2px solid  #64a2dd;
+    text-align: center;
+    min-height: 180px;
     padding: 20px;
     border-radius: 20px;
 }
@@ -197,6 +205,12 @@ p {
     color: #2d7ae4;
     font-family: 'Montserrat', sans-serif;
 }
+
+a {
+  color: #e5dfb7; 
+  font-weight: bold;
+  }
+
 
 .rede{
     grid-column: 1 / -1;
@@ -209,6 +223,7 @@ p {
 .rede-texto {
     width: 400px;
     border: 2px solid  #64a2dd;
+    text-align: center;
     padding: 20px;
     border-radius: 20px;
 }
