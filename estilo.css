@@ -232,3 +232,46 @@ a {
     color: #2d7ae4;
     font-family: 'Montserrat', sans-serif;
 }
+
+@media (max-width: 768px) {
+
+    .fade {
+        grid-template-columns: 1fr;
+        padding: 0 15px;
+    }
+
+    .corporativo,
+    .email,
+    .chamada,
+    .suporte,
+    .rede {
+        flex-direction: column;
+    }
+
+    .chat-texto,
+    .email-texto,
+    .chamada-texto,
+    .suporte-texto,
+    .rede-texto {
+        width: auto;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .caixa {
+        height: auto;
+        min-height: 250px;
+    }
+
+    #gadvlogo {
+        position: static;
+        display: block;
+        margin: 0 auto;
+        width: 120px;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+        margin: 25px 10px;
+    }
+}
